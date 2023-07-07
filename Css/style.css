@@ -27,6 +27,27 @@ section div.contenedor {/*en este blque tenemos que agregar mediaqueries para pa
 
 }
 
+@media (min-width: 300px) and (max-width: 768px) {
+
+    section div.contenedor{
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 50px;
+        justify-content: space-evenly;
+        grid-template-areas: 
+            'tarjeta1'
+            'tarjeta2'
+            'tarjeta3'
+            'tarjeta4'
+        ;
+    }
+
+}
+
+
+
+
 div.cajas{
     width: 450px;
     height: 330px;
