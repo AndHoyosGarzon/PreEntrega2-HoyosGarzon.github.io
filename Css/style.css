@@ -102,8 +102,23 @@ div a.link-target:hover{
     filter: brightness(0.8);
 }
 
+/*diseño propio formulario*/
 
-    
+.bodyForm{
+    background-image: url('../img/img\ form.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerForm{
+    padding: 22px;
+    margin: 5px;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    background-color: #F4FFF8;
+}
+
 
 
 
